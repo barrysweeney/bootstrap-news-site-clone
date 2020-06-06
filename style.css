@@ -1,0 +1,40 @@
+/* COMPANY NAME IN TOP NAVBAR AND FOOTER */
+.navbar-brand {
+  font-size: 35px;
+}
+
+/* DEBATE SECTION */
+.versus {
+  width: 30px;
+  display: block;
+  background: rgb(90, 86, 86);
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 700;
+  position: relative;
+  z-index: 999;
+}
+
+/* adapted from: 
+https://stackoverflow.com/a/14283366
+https://stackoverflow.com/a/34575338
+*/
+.versus-container {
+  position: relative;
+  z-index: -1;
+}
+
+.versus-container:after {
+  left: 0;
+  position: absolute;
+  top: 50%;
+  content: "";
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+/* SOCIAL ICONS IN FOOTER */
+.social {
+  font-size: 20px;
+}
